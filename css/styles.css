@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-image: url('https://www.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+main{
+    background-color: #efe5dd;
+    padding: 30px;
+}
+
+footer{
+    color: #b5324a;
+    height: 50px;
+}
+
+h1{
+    padding-top: 20px;
+}
+h2{
+    font-weight: lighter;
+}
+
+section{
+    padding: 20px;
+}
+
+a:hover{
+    color: #efe5dd;
+    text-decoration: none;
+}
+
+.img-self{
+   border-radius: 0 200px;
+    height: 400px;
+    padding: 10px;
+    object-fit: cover;
+    width: 400px;
+}
+.nav__des{
+    background-color: #b5324a;
+    border-radius: 15px;
+    color: #efe5dd;
+    height: 50px;
+    padding: 10px;
+    width: 100px;
+}
+.nav__des:hover{
+    filter: opacity(25%);
+}
+.nam-box{
+    color:#005f6a;
+    text-align: end;
+}
+.contact{
+    color: #005f6a;
+    text-align: center;
+    align-items: center;
+}
+
+.contact__button{
+    background-color: #b5324a;
+    border-radius: 15px;
+    color: #efe5dd;
+    font-size: 20px;
+    height: auto;
+    margin: 20px;
+    padding: 10px 25px;
+    width: auto;
+    
+}
+.skills{
+    background-color:#b5324a;
+    border-radius: 100px 0 / 120px;
+    color: #efe5dd;
+    margin: 10px 0;
+    padding: 50px;
+    
+}
+.skill-box{
+    background-color: #efe5dd;
+    border-radius: 0 100px / 120px;
+    color: #b5324a;
+    margin-right: 5px;
+    width: auto;
+}
+
+.proj-card{
+    border-color: #b5324a;
+    border-width: 2px;
+    color: #b5324a;
+    height: auto;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    width: 18rem;
+}
+
+
+
+.proj-btn{
+    background-color: #005f6a;
+    border-radius: 10px;
+    color: #efe5dd;
+}
