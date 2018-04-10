@@ -4,7 +4,8 @@ body{
 }
 
 header{
-    background-image: url("IMG_3960.jpg");
+    background-image: url('https://lh3.googleusercontent.com/l5vHKas7sVlbmWQOgZzZlmxViWvAPIu5Ygsv1rKaoPYzJqXLeBqoA6_bSgzxTdjNlfJqtFSBdyD1J-JaFtqTj9af85B-DNPUbNdnDbrITZ0pky7-m4xUF_9a7Do2fDxk2KB7dul1dgPiieTAog1peTvkfe-e7LeqMGfQaJP1gbEa6dcaromR64h7cVQPW90yXEQItAnQ_dE59stKabMzDwsaYAHeKqeP7Mm2WuxBKKD0haS0QCAufQQ55p_M9eJmF-5eYth08S1IYv_gh0iakU0kgcxP-Nd6wrdp7vEAqHIEjwmFnA9rMow1pbBNT7-naKmOY0-yTzFvLjcAJvCNL6AkKuWd1RoBFD_uKonXFZLXAA4CjD9HlRaCBz1TLxEP-3Ba5efZW068isT3t9jsyiTIcZZ0fKI8M0cQNmsH3cSHt_clT16accx-K00A29opKiKIdx55PjzFpKP_KQ-ij-3wGvtkNkP1aGbWUc9LHCUr4Eeaa66tGt0oD33fqCFP9zMVyR9oPtdualW55-nzyC3B0nxbJwJ5FtDP9JU2Vj97Xg46meva7EapxR0yZsz-VbGuTv3RGkqIwTCW7n_qaiSEUqf-LaOngRKgsQ=w2438-h1560-no');
+    background-position: 10%;
     background-size: cover;
     height: 400px;
 }
@@ -36,8 +37,8 @@ a:hover{
 }
 
 .img-self{
-   border-radius: 0 200px;
-    height: 400px;
+   border-radius: 0 200px; 
+   height: 400px;
     padding: 10px;
     object-fit: cover;
     width: 400px;
@@ -51,7 +52,7 @@ a:hover{
     width: 100px;
 }
 .nav__des:hover{
-    filter: opacity(25%);
+    filter: opacity(80%);
 }
 .nam-box{
     color:#005f6a;
@@ -61,6 +62,9 @@ a:hover{
     color: #005f6a;
     text-align: center;
     align-items: center;
+}
+.contact__button:hover{
+    filter: opacity(80%);
 }
 
 .contact__button{
