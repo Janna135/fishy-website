@@ -9,15 +9,21 @@ header{
     background-size: cover;
     height: 400px;
 }
+nav{
+    display: flex;  
+    justify-content: flex-end;
+}
 
 main{
     background-color: #efe5dd;
     padding: 30px;
+    margin-top: 10px;
 }
 
 footer{
     color: #b5324a;
     height: 50px;
+    
 }
 
 h1{
@@ -32,19 +38,23 @@ section{
 }
 
 a{
-    color: #b5324a;
+    color: #efe5dd;
     text-decoration: none;
 }
 a:hover{
-    color: #b5324a;
+    color: #efe5dd;
     opacity: 30%;
+    font-weight: bold;
     text-decoration: none;
 }
 .wrapper{
-    height: 50px;
-    width: auto;
-    background-color: #efe5dd;
-    color: #b5324a
+    background-color: #b5324a;
+    color: #efe5dd;
+    height: 35px;
+    position: sticky;
+    top:0;
+    margin: auto;
+    z-index: 1;
 }
 
 .img-self{
@@ -55,16 +65,9 @@ a:hover{
     width: 400px;
 }
 .nav__des{
-    background-color: #b5324a;
-    border-radius: 15px;
-    color: #efe5dd;
-    height: 50px;
     padding: 10px;
-    width: 100px;
 }
-.nav__des:hover{
-    filter: opacity(80%);
-}
+
 .nam-box{
     color:#005f6a;
     text-align: end;
@@ -121,4 +124,14 @@ a:hover{
     background-color: #005f6a;
     border-radius: 10px;
     color: #efe5dd;
+}
+.link__imp{
+    color: #b5324a;
+    text-decoration: none;
+}
+.link__imp:hover{    
+    color: #b5324a;
+    opacity: 30%;
+    font-weight: bold;
+    text-decoration: none;
 }
