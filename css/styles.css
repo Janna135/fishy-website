@@ -104,7 +104,7 @@ a:hover{
 }
 .skill-box{
     background-color: #efe5dd;
-    border-radius: 0 100px / 120px;
+    border-radius: 10px;
     color: #b5324a;
     margin-right: 5px;
     width: auto;
