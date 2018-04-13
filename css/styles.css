@@ -30,6 +30,11 @@ h1{
     padding-top: 20px;
 }
 h2{
+    color: #005f6a;
+    font-weight: lighter;
+}
+.h2_skills{
+    color:#efe5dd;
     font-weight: lighter;
 }
 
@@ -65,6 +70,15 @@ a:hover{
     object-position: 50% 18%;
     object-fit: cover;
     width: 400px;
+}
+
+.img__self__about{
+    border-radius: 150px 0;
+    height: 500px;
+    padding: 10px;
+    object-position: center;
+    object-fit: contain;
+    width: auto;
 }
 .nav__des{
     padding: 10px;
@@ -116,9 +130,7 @@ a:hover{
     width: auto;
 }
 
-.h2__special{
-    color: #005f6a;
-}
+
 .para{
     color: #005f6a;
     position: center;
