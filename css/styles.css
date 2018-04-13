@@ -30,7 +30,6 @@ h1{
     padding-top: 20px;
 }
 h2{
-    color: #005f6a;
     font-weight: lighter;
 }
 
@@ -117,6 +116,9 @@ a:hover{
     width: auto;
 }
 
+.h2__special{
+    color: #005f6a;
+}
 .para{
     color: #005f6a;
     position: center;
@@ -126,7 +128,7 @@ a:hover{
     border-color: #b5324a;
     border-width: 2px;
     color: #b5324a;
-    height: 350px;
+    height: 375px;
     margin: 10px 0 10px 0;
     padding: 10px;
     width: 18rem;
