@@ -35,7 +35,6 @@ h2{
 }
 .h2_skills{
     color:#efe5dd;
-    font-weight: lighter;
 }
 
 section{
@@ -130,7 +129,9 @@ a:hover{
     width: auto;
 }
 
-
+.h2__special{
+    color: #005f6a;
+}
 .para{
     color: #005f6a;
     position: center;
