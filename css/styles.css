@@ -39,6 +39,10 @@ h2{
     color:#efe5dd;
 }
 
+h3:hover{
+    transform: scale(2.0)
+}
+
 section{
     padding: 20px;
 }
